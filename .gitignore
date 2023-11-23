@@ -1,2 +1,5 @@
 *.DS_Store
 /train_updated_titiles
+/train
+/patches
+patches.zip
