@@ -1,7 +1,7 @@
-import numpy as np
+import torch
 
-def dice_coef(groundtruth_mask, pred_mask):
-    intersect = np.sum(pred_mask * groundtruth_mask)
-    total_sum = np.sum(pred_mask) + np.sum(groundtruth_mask)
-    dice = np.mean(2*intersect/total_sum)
-    return round(dice, 3) #round up to 3 decimal places
+def F1(groundtruth_mask, pred_mask):
+    intersect = torch.sum(pred_mask * groundtruth_mask, axis=[1, 2, 3])
+    total_sum = torch.sum(pred_mask, axis=[1, 2, 3]) + torch.sum(groundtruth_mask, axis=[1, 2, 3])
+    dice = 2*intersect / total_sum
+    return dice.numpy()

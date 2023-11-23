@@ -3,3 +3,4 @@
 /train
 /patches
 patches.zip
+*.pyc
