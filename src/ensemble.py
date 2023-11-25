@@ -1,5 +1,4 @@
 import torch
-
 class EnsembleModel(torch.nn.Module):
     """Ensemble of torch models, pass tensor through all models and average results"""
 

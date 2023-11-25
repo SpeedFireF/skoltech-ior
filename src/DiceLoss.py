@@ -8,7 +8,7 @@ class DiceLoss(nn.Module):
     def __init__(self):
         super(DiceLoss, self).__init__()
 
-    def forward(self, inputs, targets, eps=1e-6):
+    def forward(self, inputs, ground_truth, eps=1e-6):
         """
         Calculation of dice loss
 
@@ -18,7 +18,6 @@ class DiceLoss(nn.Module):
         :return: loss value
         """
         predictions = torch.argmax(inputs, dim = 1)
-        ground_truth = targets
         
         # implement dice loss
         dice_loss_per_channel = 1 - (2 * torch.sum(predictions * ground_truth, dim=(1, 2)) + 1) / (
