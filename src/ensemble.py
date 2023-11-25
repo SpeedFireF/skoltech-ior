@@ -1,4 +1,5 @@
 import torch
+
 class EnsembleModel(torch.nn.Module):
     """Ensemble of torch models, pass tensor through all models and average results"""
 
@@ -14,5 +15,5 @@ class EnsembleModel(torch.nn.Module):
                 result = y
             else:
                 result += y
-        result /= torch.tensor(len(self.models)).to(result.device)
+        result /= torch.tensor(len(self.models))
         return result
