@@ -37,7 +37,7 @@
     </li>
     <li><a href="#model-architecture">Model Architecture</a></li>
     <li><a href="#Results">Results</a></li>
-     <li><a href="#Hackaton leaderboard">Hackaton leaderboard</a></li>
+     <li><a href="#Hackaton-leaderboard">Hackaton leaderboard</a></li>
     <li><a href="#license">License</a></li>
   </ol>
 </details>
