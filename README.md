@@ -16,6 +16,10 @@
   </p>
         Skolkovo Institute of Science and Technology
       <br />
+        <p align="center">
+          Team Vladik:
+          Almaz Dautov, Damir Abdulayev, Danil Kuchukov
+      </p>
     <a href="https://docs.google.com/document/d/1uiGTBn9Rf7Vny-fc9C7ETZ9FvvwLYmAYQ7yLU4dvCV4/edit#heading=h.tut3bn1jjr"><strong> Teaser»</strong></a>
      ·
     <a href="https://lodmedia.hb.bizmrg.com/presentations/1065852/1059974/Final_Presentation_1_.pdf"><strong>Presentation»</strong></a>
