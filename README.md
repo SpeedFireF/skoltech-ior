@@ -37,7 +37,8 @@
     </li>
     <li><a href="#model-architecture">Model Architecture</a></li>
     <li><a href="#Results">Results</a></li>
-     <li><a href="#license">License</a></li>
+     <li><a href="#Hackaton leaderboard">Hackaton leaderboard</a></li>
+    <li><a href="#license">License</a></li>
   </ol>
 </details>
 
@@ -73,6 +74,11 @@ Both models in the ensemble are instances of the UNet++ architecture, which is a
 | U-net ++ Augmented / resnet50               | 0.6238   |   |  
 | U-net++ / timm-efficientnet-b8              | 0.6571   |   |   
 | U-net++ Ensemble/ resnet50, efficientnet-b7 | 0.7006   |  0.71133 |  
+
+## Hackaton leaderboard
+
+![0b15610d-ba29-42ca-aea2-215ef24e73e9](https://github.com/SpeedFireF/skoltech-ior/assets/64196918/aa419c67-6043-4b30-9bbb-1a757ac4be3e)
+
 
 <!-- LICENSE -->
 ## License
