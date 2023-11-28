@@ -31,20 +31,8 @@
     <li>
       <a href="#about-the-project">About The Project</a>
     </li>
-    <li>
-      <a href="#model-architecture">Model Architecture</a>
-      <ul>
-        <li><a href="#clip-sound-embeddings">CLIP sound embeddings</a></li>
-        <li><a href="#wav2clip">wav2CLIP</a></li>
-        <li>
-          <a href="#diffusion-model-architecture">Diffusion Model Architecture</a>
-          <ul>
-            <li><a href="#forward-process">Forward process</a></li>
-            <li><a href="#unet-backward-process">Unet backward process</a></li>
-          </ul>
-        </li>
-      </ul>
-    </li>
+    <li><a href="#model-architecture">Model Architecture</a></li>
+    <li><a href="#Results">Results</a></li>
      <li><a href="#license">License</a></li>
   </ol>
 </details>
