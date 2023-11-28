@@ -40,7 +40,7 @@
 <!-- ABOUT -->
 ## About the project
 
-We present a model for Semantic Segmentation of buildings captured in satellite imagery. This model allows you to segment buildings from satellite images in the form of a binary mask with high accuracy.
+We present a model for Semantic Segmentation of buildings using satellite data, Hackaton "Цифровой прорыв" case from Scholtech. This model allows you to segment buildings from satellite images in the form of a binary mask with high accuracy.
 To solve the problem of binary semantic segmentation of buildings, a number of steps were taken:
 - Collection of an additional dataset with a similar segmentation method. We used APIs from mapbox.com [2] for satellite imagery and openstreetmap.org [3] to segment individual buildings using QGIS [4] and the Overpass API [5].
 - Post-processing masks by removing buildings smaller than 100 pixels (100 m^2)
